@@ -35,5 +35,25 @@
             <div class="item" style="--img:url('image/set04.png')" data-text="Set 04"></div>
             <div class="item" style="--img:url('image/set05.png')" data-text="Set 05"></div>
         </div>
+        <script>
+            let box = document.querySelector('.box');
+            function moveNext() {
+                let items = document.querySelectorAll('.item');
+                box.appendChild(items[0]);
+            }
+
+            function movePrev() {
+                let items = document.querySelectorAll('.item');
+                box.prepend(items[items.length - 1]);
+            }
+
+            window.addEventListener('wheel', function(event){
+                if (event.deltaY > 0) {
+                    moveNext();
+                } else {
+                    movePrev();
+                }
+            })
+        </script>
     </body>
 </html>
