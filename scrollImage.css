@@ -39,3 +39,18 @@ body
     transition: 1s;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
 }
+
+.box .item:nth-child(n-9)
+{
+    transform: translate3d(0px,-100px,0);
+}
+
+.box .item:nth-child(10)
+{
+    transform: translate3d(-100px,-100px,0)  rotate(5deg);
+}
+
+.box .item:nth-child(11)
+{
+    transform: translate3d(-50px,-50px,0)  rotate(-15deg);
+}
