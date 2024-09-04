@@ -54,3 +54,18 @@ body
 {
     transform: translate3d(-50px,-50px,0)  rotate(-15deg);
 }
+
+.box .item:nth-child(12)
+{
+    transform: translate3d(0px,0px,0)  rotate(15deg);
+}
+
+.box .item:nth-child(13)
+{
+    transform: translate3d(50px,50px,0)  rotate(-5deg);
+}
+
+.box .item:nth-child(n+14)
+{
+    transform: translate3d(0,100vw,0);
+}
