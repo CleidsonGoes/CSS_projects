@@ -7,3 +7,24 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+    overflow: hidden;
+}
+
+.box
+{
+    position: absolute;
+    width: 330px;
+    min-width: 250px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
