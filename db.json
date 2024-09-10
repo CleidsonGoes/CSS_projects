@@ -12,13 +12,13 @@
         ["Strike", "Support"], ["Tech", "Field"], ["Support", "Sprint"], ["Strike", "Field"], ["Tech", "Support"], ["Field", "Sprint"], ["Strike", "Tech"], ["Strike", "Support"], ["Sprint", "Tech"], ["Sprint", "Field"]
         ],
     "Set05": [
-        [], [], [], [], [], [], [], [], [], []
+        ["Strike", "Support"], ["Tech", "Field"], ["Sprint", "Field"], ["Sprint", "Tech"], ["Strike", "Support"], ["Strike", "Tech"], ["Field", "Sprint"], ["Tech", "Support"], ["Strike", "Field"], ["Support", "Sprint"]
         ],
     "Set06": [
-        [], [], [], [], [], [], [], [], [], []
+        ["Strike", "Sprint"], ["Tech", "Support"], ["Strike", "Tech"], ["Field", "Sprint"], ["Support", "Field"], ["Strike", "Field"], ["Tech", "Sprint"], ["Field", "Sprint"], ["Tech", "Support"], ["Strike", "Support"]
         ],
     "Set07": [
-        [], [], [], [], [], [], [], [], [], []
+        ["Strike", "Field"], ["Strike", "Tech"], ["Strike", "Sprint"], ["Field", "Support"], ["Strike", "Field"], ["Strike", "Tech"], ["Tech", "Sprint"], ["Strike", "Support"], ["Strike", "Sprint"], ["Strike", "Support"]
     ],
     "Set08": [
         [], [], [], [], [], [], [], [], [], []
