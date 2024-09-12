@@ -54,3 +54,32 @@ body
 {
     transform: translateY(30px) scale(0.5);
 }
+
+.content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 0.5s;
+    padding-bottom: 30px;
+    transform: translateY(100%);
+}
+
+.card:hover .content
+{
+    transform: translateY(0);
+}
+
+.content .details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
