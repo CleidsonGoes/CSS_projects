@@ -83,3 +83,52 @@ body
     flex-direction: column;
     text-align: center;
 }
+
+.content .details h2
+{
+    color: #fff;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.content .details h2 span
+{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #03a9f4;
+}
+
+.sci
+{
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    gap: 8px;
+}
+
+.sci li
+{
+    list-style: none;
+    display: flex;
+}
+
+.sci li a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #294d69;
+    font-size: 1.5em;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.sci li a:hover
+{
+    background: #03a9f4;
+    transform: rotate(360deg);
+}
