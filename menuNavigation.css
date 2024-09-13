@@ -36,14 +36,12 @@ body
 
 .navigation ul
 {
-    background: orange;
     display: flex;
     width: 350px;
 }
 
 .navigation ul li
 {
-    background: green;
     position: relative;
     width: 70px;
     height: 70px;
@@ -53,7 +51,6 @@ body
 
 .navigation ul li a
 {
-    background: rgb(219, 98, 98);
     position: relative;
     display: flex;
     justify-content: center;
@@ -75,7 +72,7 @@ body
     color: var(--clr);
 }
 
-.navigation ul li:hover a .icon
+.navigation ul li.active a .icon
 {
     transform: translateY(-35px);
 }
@@ -92,9 +89,20 @@ body
     transform: translateY(20px);
 }
 
-.navigation ul li:hover a .text
+.navigation ul li.active a .text
 {
     opacity: 1;
     transform: translateY(10px);
+}
+
+.indicator
+{
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: #29fd53;
+    border-radius: 50%;
+    border: 6px solid var(--clr);
 }
 
