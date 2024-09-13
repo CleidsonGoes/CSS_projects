@@ -53,7 +53,7 @@ body
 
 .navigation ul li a
 {
-    background: blue;
+    background: rgb(219, 98, 98);
     position: relative;
     display: flex;
     justify-content: center;
@@ -63,3 +63,38 @@ body
     text-align: center;
     font-weight: 500;
 }
+
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: var(--clr);
+}
+
+.navigation ul li:hover a .icon
+{
+    transform: translateY(-35px);
+}
+
+.navigation ul li a .text
+{
+    position: absolute;
+    color: var(--clr);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.navigation ul li:hover a .text
+{
+    opacity: 1;
+    transform: translateY(10px);
+}
+
